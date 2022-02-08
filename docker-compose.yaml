@@ -1,7 +1,6 @@
 services:
     jenkins:
-        #image: "davidcozens/jenkins:${JENKINS_TAG}"
-        image: "jenkins"
+        image: "davidcozens/jenkins:${JENKINS_TAG}"
 
         environment:
             - JENKINS_URL=http://${JENKINS_HOST}:${JENKINS_PORT}
@@ -28,6 +27,10 @@ services:
             - type: bind
               source: /usr/bin/docker
               target: /usr/bin/docker
+              
+            - type: bind
+              source: /usr/bin/com.docker.cli
+              target: /usr/bin/com.docker.cli
 
 volumes:
     jenkins_home:

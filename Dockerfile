@@ -2,7 +2,6 @@
 FROM jenkins/jenkins:lts-jdk11
 LABEL Description="Jenkins CI server"
 
-# Disable the startup wizard; the Configuration As Source Code (CASC) is used instead
 ENV JAVA_OPTS -Djenkins.install.runSetupWizard=false
 ENV CASC_JENKINS_CONFIG /usr/share/jenkins/ref/casc.yaml
 
