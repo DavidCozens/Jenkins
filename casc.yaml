@@ -8,7 +8,7 @@ jenkins:
       users:
        - id: ${JENKINS_ADMIN_ID}
          password: ${JENKINS_ADMIN_PASSWORD}
-  numExecutors: 0
+  numExecutors: 1
   labelString: "master"
   scmCheckoutRetryCount: 2
   noUsageStatistics: true
