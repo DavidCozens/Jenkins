@@ -103,5 +103,5 @@ docker-commons:latest
 docker-java-api:latest
 docker-plugin:latest
 docker-workflow:latest
-greenballs:latest
 jobConfigHistory:latest
+promoted-builds:latest
