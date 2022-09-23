@@ -106,4 +106,3 @@ docker-workflow:latest
 jobConfigHistory:latest
 promoted-builds:latest
 cucumber-reports:latest
-cucumber-living-documentation:latest
