@@ -106,3 +106,4 @@ docker-workflow:latest
 jobConfigHistory:latest
 promoted-builds:latest
 cucumber-reports:latest
+cloudbees-disk-usage-simple:latest
