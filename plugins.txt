@@ -37,7 +37,6 @@ jdk-tool:latest
 command-launcher:latest
 pipeline-milestone-step:latest
 bouncycastle-api:latest
-ace-editor:latest
 workflow-scm-step:latest
 workflow-cps:latest
 pipeline-input-step:latest
@@ -45,8 +44,6 @@ pipeline-stage-step:latest
 workflow-job:latest
 pipeline-graph-analysis:latest
 pipeline-rest-api:latest
-handlebars:latest
-momentjs:latest
 pipeline-stage-view:latest
 pipeline-build-step:latest
 pipeline-model-api:latest
