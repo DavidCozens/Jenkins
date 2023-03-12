@@ -52,7 +52,6 @@ apache-httpcomponents-client-4-api:latest
 jsch:latest
 git-client:latest
 git-server:latest
-workflow-cps-global-lib:latest
 javax-activation-api:latest
 javax-mail-api:latest
 mailer:latest
@@ -104,3 +103,5 @@ jobConfigHistory:latest
 promoted-builds:latest
 cucumber-reports:latest
 cloudbees-disk-usage-simple:latest
+active-directory:latest
+
