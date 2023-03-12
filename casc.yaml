@@ -1,18 +1,4 @@
 jenkins:
-  authorizationStrategy: "loggedInUsersCanDoAnything"
-  remotingSecurity:
-    enabled: true
-  securityRealm:
-    local:
-      allowsSignup: false
-      users:
-       - id: ${JENKINS_ADMIN_ID}
-         password: ${JENKINS_ADMIN_PASSWORD}
-  numExecutors: 1
-  labelString: "master"
-  scmCheckoutRetryCount: 2
-  noUsageStatistics: true
-  disabledAdministrativeMonitors:
-  - "hudson.diagnosis.ReverseProxySetupMonitor"
+  systemMessage: "Jenkins master running in docker based on the docker image davidcozens/jenkins."
 
 
