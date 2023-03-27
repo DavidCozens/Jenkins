@@ -108,4 +108,4 @@ job-dsl:latest
 atlassian-bitbucket-server-integration:latest
 bitbucket-build-status-notifier:latest
 build-monitor-plugin:latest
-
+build-failure-analyzer:latest
