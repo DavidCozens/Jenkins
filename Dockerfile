@@ -2,7 +2,7 @@
 FROM jenkins/jenkins:lts-jdk11
 LABEL Description="Jenkins CI server"
 
-ENV JAVA_OPTS -Djenkins.install.runSetupWizard=false
+ENV JAVA_OPTS -Djenkins.install.runSetupWizard=false -Dmail.smtp.starttls.enable=true
 ENV CASC_JENKINS_CONFIG /usr/share/jenkins/ref/casc.yaml
 
 COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
