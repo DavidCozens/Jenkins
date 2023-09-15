@@ -18,12 +18,9 @@ caffeine-api:latest
 script-security:latest
 plugin-util-api:latest
 font-awesome-api:latest
-popper-api:latest
 jquery3-api:latest
-bootstrap4-api:latest
 snakeyaml-api:latest
 jackson2-api:latest
-popper2-api:latest
 bootstrap5-api:latest
 echarts-api:latest
 display-url-api:latest
